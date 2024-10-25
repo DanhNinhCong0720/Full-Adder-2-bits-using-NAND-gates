@@ -1,0 +1,8 @@
+INCLUDE $SYNOPSYS_CUSTOM_INSTALL/samples/lib.defs
+DEFINE reference90RF ./PDK/reference90RF
+ASSIGN reference90RF libMode shared
+
+DEFINE lab21_nand2 ./lab21_nand2
+DEFINE lab1_inv ./lab1_inv
+DEFINE lab22_fa1b ./lab22_fa1b
+DEFINE lab23_fa2b ./lab23_fa2b

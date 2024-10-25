@@ -1,0 +1,6 @@
+* Transient Analyses
+*.tran 0.1n 100n START=0
+        
+ 
+* AC Analyses
+*.AC DEC 50 1 100Meg

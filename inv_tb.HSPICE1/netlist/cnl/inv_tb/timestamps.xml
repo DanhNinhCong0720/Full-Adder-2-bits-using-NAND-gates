@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Apr 24 13:38:17 2024-->
+<file-format version="1.0" name="netlisting-timestamps">
+<module viewSearchList="hspice hspiceD cmos.sch cmos_sch schematic veriloga" isSubcircuit="0" contextID="switched: lab1_inv inv_tb schematic vl: hspice hspiceD cmos.sch cmos_sch schematic veriloga sl: hspice hspiceD veriloga" timestamp="348" viewStopList="hspice hspiceD veriloga">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters/>
+<lib_parameters/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="174"/>
+<PortOrder><![CDATA[result]]></PortOrder>
+</module>
+</file-format>

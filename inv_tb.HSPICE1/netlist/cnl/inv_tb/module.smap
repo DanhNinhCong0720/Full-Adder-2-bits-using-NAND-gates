@@ -1,0 +1,38 @@
+<module name="vsl: lab1_inv inv_tb schematic vl: hspice hspiceD cmos.sch cmos_sch schematic veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I0" dst="xi0"/>
+<mapping src="V4" dst="v4"/>
+<mapping src="V5" dst="v5"/>
+</forward>
+<reverse>
+<mapping src="xi0" dst="I0"/>
+<mapping src="v4" dst="V4"/>
+<mapping src="v5" dst="V5"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;termOrder>" dst="result"/>
+<mapping src="&lt;unmappedTermOrder>" dst="result"/>
+</forward>
+<reverse>
+<mapping src="result" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inv">
+<instance name="I0"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="V4"/>
+</instance_header>
+<instance_header master="vpulse">
+<instance name="V5"/>
+</instance_header>
+</master_instances>
+</module>

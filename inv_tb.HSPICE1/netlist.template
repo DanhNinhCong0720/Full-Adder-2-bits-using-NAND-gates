@@ -1,0 +1,17 @@
+* HSPICE Netlist
+
+.options POST=1 parhier=local
+
+* Models section
+[?models]
+
+* Design variables section
+[?params]
+
+* Structural netlist section
+[!netlist/netlist.sp]
+
+* Analysis section
+[?analyses]
+
+.end

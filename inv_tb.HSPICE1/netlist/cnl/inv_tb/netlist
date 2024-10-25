@@ -1,0 +1,10 @@
+********************************************************************************
+* Library          : lab1_inv
+* Cell             : inv_tb
+* View             : schematic
+* View Search List : hspice hspiceD cmos.sch cmos_sch schematic veriloga
+* View Stop List   : hspice hspiceD veriloga
+********************************************************************************
+v5 net5 gnd! dc=0 pulse ( 0 1.2 0 0.1n 0.1n 2n 4n )
+v4 vdd! gnd! dc=1.2
+xi0 net5 result inv

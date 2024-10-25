@@ -1,0 +1,5 @@
+* Include parameters
+*.include 'my_model_parameters.inc' 
+ 
+* Include models
+*.lib 'mymodel.lib' typ  
